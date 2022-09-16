@@ -5,11 +5,11 @@
 
 ### ``plotat``
 
-Use the ``plotAt`` block to render LEDs at an index location
+Use the ``plotAt`` block to render LEDs at an index location.
 
 ```blocks
 basic.forever(function () {
-    for (let index = 0; index <= 25; index++) {
+    for (let index = 0; index <= 25; index++    ) {
         screenMagic.plotAt(index)
         basic.pause(100)
     }
