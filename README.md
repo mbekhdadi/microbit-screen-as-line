@@ -1,6 +1,21 @@
 
 > Open this page at [https://mbekhdadi.github.io/microbit-screen-as-line/](https://mbekhdadi.github.io/microbit-screen-as-line/)
 
+## Usage
+
+### ``plotat``
+
+Use the ``plotAt`` block to render LEDs at an index location
+
+```blocks
+basic.forever(function () {
+    for (let index = 0; index <= 25; index++) {
+        screenMagic.plotAt(index)
+        basic.pause(100)
+    }
+}
+```
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
